@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="URHealth.Service.ProductService">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.BMI.BMICalculator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAAAAAAAAAgAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>BMI\BMICalculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="URHealth.Service.BMI.BMICategory" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BMI\BMICategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.Message.Mail" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAMAAAAAAACAAAAAgAAEBgAAAABA=</HashCode>
+      <FileName>Message\Mail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="URHealth.Service.Message.SMS" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAMAAAAAAACAAAAAQAAEBAAAAAAA=</HashCode>
+      <FileName>Message\SMS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="URHealth.Service.MockSodexoWebService" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MockSodexoWebService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.MockZetaWebService" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MockZetaWebService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentRequest" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentResponse" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Payment\PaymentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentService" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentServiceBase" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentServiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentServiceFactory" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentServiceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.SodexhoPayment" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAA=</HashCode>
+      <FileName>Payment\SodexPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.ZetaPayment" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Payment\ZetaPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="URHealth.Service.BMI.ICalculate" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>BMI\ICalculate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="URHealth.Service.Message.IEmailMessage">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="URHealth.Service.Message.IMessage" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="5.247" />
+        <Point X="2.5" Y="5.666" />
+        <Point X="3.5" Y="5.666" />
+        <Point X="3.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>Message\IEmailMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="URHealth.Service.Message.IEmailSMSMessage">
+    <Position X="5.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAQAAABgAAAABA=</HashCode>
+      <FileName>Message\IMessage(Old).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="URHealth.Service.Message.IMessage">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Message\IMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="URHealth.Service.Message.ISMSMessage">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="URHealth.Service.Message.IMessage" ManuallyRouted="true">
+      <Path>
+        <Point X="2.5" Y="5.247" />
+        <Point X="2.5" Y="5.706" />
+        <Point X="1.25" Y="5.706" />
+        <Point X="1.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Message\ISMSMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="URHealth.Service.MealCardType" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MealCardType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

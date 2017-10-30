@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="URHealth.Service.MockSodexoWebService">
+    <Position X="0.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MockSodexoWebService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.MockZetaWebService">
+    <Position X="3" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MockZetaWebService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentRequest" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentResponse" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Payment\PaymentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentService" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentServiceBase">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentServiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.PaymentServiceFactory" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\PaymentServiceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.SodexPayment">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="URHealth.Service.PaymentServiceBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="1.603" />
+        <Point X="2.5" Y="2.294" />
+        <Point X="1.25" Y="2.294" />
+        <Point X="1.25" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAA=</HashCode>
+      <FileName>Payment\SodexPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.ZetaPayment">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="URHealth.Service.PaymentServiceBase" ManuallyRouted="true">
+      <Path>
+        <Point X="2.5" Y="1.603" />
+        <Point X="2.5" Y="2.294" />
+        <Point X="3.5" Y="2.294" />
+        <Point X="3.5" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Payment\ZetaPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="URHealth.Service.ProductService" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="URHealth.Service.MealCardType" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment\MealCardType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
