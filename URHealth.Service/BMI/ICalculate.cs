@@ -8,8 +8,6 @@ namespace URHealth.Service.BMI
 {
     public interface ICalculate
     {
-        decimal WeightInKg{get; set;}
-        decimal HeightInMeters { get; set;}
-        decimal Calculate();
+        float Calculate();
     }
 }

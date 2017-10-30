@@ -8,9 +8,9 @@ namespace URHealth.Service.BMI
 {
     public class BMICalculator : ICalculate
     {
-        private decimal _height;
-        private decimal _weight;
-        public decimal HeightInMeters
+        private float _height;
+        private float _weight;
+        public float HeightInMeters
         {
             get
             {
@@ -23,7 +23,7 @@ namespace URHealth.Service.BMI
             }
         }
 
-        public decimal WeightInKg
+        public float WeightInKg
         {
             get
             {
@@ -36,9 +36,9 @@ namespace URHealth.Service.BMI
             }
         }
 
-        public decimal Calculate()
+        public float Calculate()
         {
-            decimal heightsquare= (_height * _height);
+            float heightsquare= (_height * _height);
             return (_weight / heightsquare);
         }
     }

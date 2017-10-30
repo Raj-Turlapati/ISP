@@ -27,22 +27,22 @@ namespace ISPDemo
             Console.WriteLine(" Under Weight =< 18.5 \n Normal Weight > 18.5 And <= 24.9 \n Overweight > 25 And <= 29.9 \n Obesity >=30\n");
             Console.WriteLine("********* End of BMI Categories *********** \n");
 
-            ICalculate calculateBMI = new BMICalculator();
+            BMICalculator calculateBMI = new BMICalculator();
 
             Console.WriteLine("Enter weight in Kilog grams...");
 
-            int weightInKg;
-            int.TryParse(Console.ReadLine(),out weightInKg);
+            float weightInKg;
+            float.TryParse(Console.ReadLine(),out weightInKg);
             
             Console.WriteLine("Enter height in Meters...");
 
-            decimal heightInMeters;
-            decimal.TryParse(Console.ReadLine(), out heightInMeters);
+            float heightInMeters;
+            float.TryParse(Console.ReadLine(), out heightInMeters);
 
             calculateBMI.WeightInKg = weightInKg;
             calculateBMI.HeightInMeters = heightInMeters;
 
-            decimal BMI = Math.Round(calculateBMI.Calculate(),1);
+            float BMI = (float)Math.Round(calculateBMI.Calculate(),1);
 
             Console.WriteLine("Your BMI is : {0} && BMI Category : {1}", BMI, BMICategory.GetBMICategory(BMI));
 
